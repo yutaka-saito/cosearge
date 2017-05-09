@@ -10,7 +10,7 @@ version 0.1
 3DColocTest
 3DColocDiff
 3DColocLook
-(Linux XXX + GCC XXX + Boost XXX)
+(Debian Linux 3.16.0-4-amd64 + GCC 4.9.2 + Boost 1.55.0)
 
 
 ==== Build yourself

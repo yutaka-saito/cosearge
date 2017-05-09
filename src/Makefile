@@ -2,12 +2,12 @@ INCLUDE   = -I. -I/home/saito/local/include -I/usr/include -I/usr/local/include
 
 LIBPATH   = -L. -L/home/saito/local/lib -L/usr/lib -L/usr/local/lib
 
-LDLIBS    = -lm -lboost_program_options -lboost_thread
+LDLIBS    = -lm -lboost_program_options -lboost_system -lboost_thread 
 
 DEFINE    = 
 #DEFINE   += -DNDEBUG
 
-CPPFLAGS += $(INCLUDE) $(DEFINE) -Wall -Wno-sign-compare -O3
+CPPFLAGS += $(INCLUDE) $(DEFINE) -Wall -Wno-sign-compare -O3 -pthread
 #CPPFLAGS += -static 
 #CPPFLAGS += -pg
 
